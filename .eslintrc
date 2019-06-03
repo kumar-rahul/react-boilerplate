@@ -1,0 +1,17 @@
+{
+	"parser": "babel-eslint",
+	"extends": "react",
+	"rules": {
+		"indent": ["error", "tab"],
+		"space-before-function-paren": 1
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}
